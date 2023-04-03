@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <title>VR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="button-up"></div>
+
+    <div class="separated-menu">
+        <p id="tomainsep" class="separated-menu__point">Главная</p>
+        <p id="toentertainmentssep" class="separated-menu__point">Наши развлечения</p>
+        <p id="toordersep" class="separated-menu__point">Забронировать</p>
+    </div>
+
+    <div class="navigation-bar">
+        <img src="images/logo.png">
+        <div class="navigation-bar__menu">
+            <p id="tomain" class="navigation-bar__menu__point">Главная</p>
+            <p id="toentertainments" class="navigation-bar__menu__point">Наши развлечения</p>
+            <p id="toorder" class="navigation-bar__menu__point">Забронировать</p>
+        </div>
+
+        <div class="navigation-bar__hamburger">
+            <div class="navigation-bar__hamburger__line"></div>
+            <div class="navigation-bar__hamburger__line"></div>
+            <div class="navigation-bar__hamburger__line"></div>
+        </div>
+    </div>
+
+    <div class="title-gradient">
+        <p class="title-gradient__title observation">VR Club Йошкар-Ола</p>
+        <p class="title-gradient__text observation">
+            Игровой центр в Йошкар-Оле, где мы собрали сразу 10 развлечений в одном месте! Виртуальная реальность,
+            игровые приставки, Гитар Хиро, а ещё — яркие праздники и Дни рождения
+        </p>
+        <div class="title-gradient__button">Забронировать</div>
+    </div>
+
+    <p class="title-entertainments observation">Наши развлечения</p>
+
+    <div class="entertainment-box">
+        <div class="entertainment-box__item">
+            <img src="images/playstation.png" alt="Плейстейшн">
+            <p class="entertainment-box__item__heading">Sony PlayStation</p>
+            <p class="entertainment-box__item__text">
+                В нашей коллекции на PS5 и PS4 Pro ты найдешь больше 150 крутых игр на любой вкус. Играй в топовые
+                эксклюзивы или кооперативные игры с друзьями до 4-6 человек на больших экранах в 4К разрешении.
+            </p>
+        </div>
+
+        <div class="entertainment-box__item">
+            <img src="images/xbox.png" alt="Иксбокс">
+            <p class="entertainment-box__item__heading">X-box</p>
+            <p class="entertainment-box__item__text">
+                Хочешь поиграть в Кирове на приставке Xbox? Она у нас есть — как и подписка на сервис Game Pass, где
+                тебя ждут больше 100 различных игр.
+            </p>
+        </div>
+
+        <div class="entertainment-box__item">
+            <img src="images/vr.png" alt="Виртуальная реальностьт">
+            <p class="entertainment-box__item__heading">Виртуальная реальность</p>
+            <p class="entertainment-box__item__text">
+                А хочешь не просто играть в игру, а стать ее полноценным героем? С виртуальной реальностью это просто.
+                Надевай шлем - и мы перенесем тебя в другие миры!
+            </p>
+        </div>
+    </div>
+
+    <div class="entertainment-box">
+        <div class="entertainment-box__item">
+            <img src="images/justdance.png" alt="just dance">
+            <p class="entertainment-box__item__heading">Just Dance</p>
+            <p class="entertainment-box__item__text">
+                Танцевальный симулятор современности Just Dance подарит тебе невероятные эмоции - и отлично развеселит
+                всех гостей. Тебя ждут больше 500 зажигательных песен.
+            </p>
+        </div>
+
+        <div class="entertainment-box__item">
+            <img src="images/nintendo.png" alt="Нинтендо">
+            <p class="entertainment-box__item__heading">Nintendo Switch</p>
+            <p class="entertainment-box__item__text">
+                Нинтендо Свитч — это уникальная игровая консоль. Инновационные контроллеры Joi-Con, топовые экслюзивы
+                вроде The Legend of Zelda и Super Mario Odyssey ждут тебя в нашем клубе!
+            </p>
+        </div>
+
+        <div class="entertainment-box__item">
+            <img src="images/guitar.png" alt="гитар хиро">
+            <p class="entertainment-box__item__heading">Гитар Хиро</p>
+            <p class="entertainment-box__item__text">
+                Хочешь стать настоящим музыкантом и сыграть на виртуальной сцене? У нас есть полный комплект для игры в
+                Гитар Хиро и Rock Band: игровые гитары, барабанная установка и микрофон для вокалиста!
+            </p>
+        </div>
+    </div>
+
+    <div class="order-box">
+        <img class="order-box__girl-image observation" src="images/girl.png" alt="герл">
+        <div class="order-box__form">
+            <p class="order-box__form__title">Забронировать</p>
+            <p class="order-box__form__text">
+                Заполните форму заявки и организатор свяжется с вами в течение дня.
+            </p>
+            <input name="firstname" class="order-box__form__input" placeholder="Имя">
+            <input name="email" class="order-box__form__input" placeholder="Email">
+            <input name="phone" class="order-box__form__input" placeholder="Телефон">
+            <select id="selector" class="order-box__form__input" placeholder="Развлечение">
+                <option value="1">Компьютерная зона</option>
+                <option value="2">Виртуальная Реальность</option>
+                <option value="3">Кафетерий</option>
+                <option value="4">Зона PlayStation</option>
+                <option value="4">Зона X-Box</option>
+            </select>
+            <div id="submit" class="order-box__form__button">Забронировать</div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__line"></div>
+        <div class="footer__logo-rights">
+            <img class="footer__logo-rights__logo" src="images/logo.png" alt="логотип">
+            <p class="footer__logo-rights__rights">© 2023, Все права защищены</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
